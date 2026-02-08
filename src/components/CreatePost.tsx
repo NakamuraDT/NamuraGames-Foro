@@ -83,7 +83,7 @@ export const CreatePost = () => {
         </div>
 
         <div>
-            <label> Selecciona una comunidad </label>
+            <label> Selecciona una  </label>
             <select id="community" onChange={handleCommunityChange}>
                 <option value={""}> -- Escoge una Comunidad -- </option>
                 {communities?.map((community, key) => (

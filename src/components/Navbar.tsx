@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] =  useState(false);
-    const {signInWithGitHub, signOut, user} = useAuth();
+    const {signInWithGmail, signOut, user} = useAuth();
 
     const displayName = user?.user_metadata.user_name || user?.email;
     return (
@@ -39,8 +39,8 @@ export const Navbar = () => {
                             <button onClick={signOut} className="bg-red-500 px-3 py-1 rounded"> Salir </button>
                         </div>    
                     ) : (
-                        <button onClick={signInWithGitHub} className="bg-blue-500 px-3 py-1 rounded"> 
-                        Verificar con Github</button>
+                        <button onClick={signInWithGmail} className="bg-blue-500 px-3 py-1 rounded"> 
+                        Verificar con Google </button>
                     ) }                    
                 </div>
 
