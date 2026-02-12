@@ -11,7 +11,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
         <div className="max-w-5xl mx-auto px-4"> 
             <div className="flex justify-between items-center h-16">
-                <Link to="/" className="font-mono text-xl font-bold text-white">
+                <Link to="/" className="flex items-center gap-2 font-mono text-xl font-bold text-white">
                    <img src="https://cdn.discordapp.com/attachments/702717654183706715/1471614250542825555/Logo-NG-White.png?ex=698f9312&is=698e4192&hm=c000469c6a44fade21ff7a8d71d97359ee9f3afe5ed86079ed75058f4d862ffe&" 
                     alt="NamuraGames logo"
                     className="h-6 w-6" /> Namura<span className="text-purple-500">Games</span>
