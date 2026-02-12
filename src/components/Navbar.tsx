@@ -12,10 +12,9 @@ export const Navbar = () => {
         <div className="max-w-5xl mx-auto px-4"> 
             <div className="flex justify-between items-center h-16">
                 <Link to="/" className="font-mono text-xl font-bold text-white">
-                    <img src="https://cdn.discordapp.com/attachments/702717654183706715/1471614250542825555/Logo-NG-White.png?ex=698f9312&is=698e4192&hm=c000469c6a44fade21ff7a8d71d97359ee9f3afe5ed86079ed75058f4d862ffe&" 
+                   <img src="https://cdn.discordapp.com/attachments/702717654183706715/1471614250542825555/Logo-NG-White.png?ex=698f9312&is=698e4192&hm=c000469c6a44fade21ff7a8d71d97359ee9f3afe5ed86079ed75058f4d862ffe&" 
                     alt="NamuraGames logo"
-                    className="h-6 w-6" />
-                    Namura<span className="text-purple-500">Games</span>
+                    className="h-6 w-6" /> Namura<span className="text-purple-500">Games</span>
                 </Link>
 
                 {/*Desktop Links */}
